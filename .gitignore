@@ -1,0 +1,19 @@
+# Ignore all class files
+*.class
+
+# Ignore bin directory
+/bin/
+
+# (Optional) Ignore other build/output files
+*.log
+*.tmp
+
+# Do NOT ignore source files and docs
+!src/*.java
+!README.md
+!*.png
+!*.gif
+
+# Ignore OS-specific files (optional but good practice)
+.DS_Store
+Thumbs.db
